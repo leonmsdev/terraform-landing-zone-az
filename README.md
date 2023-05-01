@@ -1,0 +1,2 @@
+path: ./foundation contains the terraform ROOT module/configuration of an Azure Resource Group and key vault.
+path: ./storage contains the terraform ROOT module/configuration for one General-V2 and one Data Lake V2 Storage storage account.

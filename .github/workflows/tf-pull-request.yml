@@ -1,0 +1,9 @@
+name: "foundation"
+on:
+  workflow_dispatch:
+
+jobs:
+  tf_validate:
+    uses: leonmsdev/github-action-templates/terraform/tf-validate.yml@main
+    with:
+      tf_version: latest ## Terraform version e.g: 1.1.0 Default=latest (Optional)
