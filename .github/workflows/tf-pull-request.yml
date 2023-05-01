@@ -1,6 +1,6 @@
 name: "tf-validate"
 on:
-  workflow_call:
+  workflow_dispatch:
 
 jobs:
   tf_validate:
