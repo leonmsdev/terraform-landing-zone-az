@@ -4,6 +4,6 @@ on:
 
 jobs:
   tf_validate:
-    uses: leonmsdev/github-action-templates/.github/workflows/terraform/tf-validate.yml@main
+    uses: leonmsdev/github-action-templates/.github/workflows/tf-validate.yml@main
     with:
       tf_version: latest ## Terraform version e.g: 1.1.0 Default=latest (Optional)
